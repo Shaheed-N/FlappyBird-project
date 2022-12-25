@@ -17,7 +17,7 @@ class GameScene: SKScene {
       backNode = self.childNode(withName: "background")!
       birdNode = self.childNode(withName: "bird") as! SKSpriteNode
 
-      let moving = SKAction.move(by: CGVector(dx: -400, dy: 0), duration: 10)
+      let moving = SKAction.move(by: CGVector(dx: -500, dy: 0), duration: 10)
       backNode.run(moving)
     }
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
